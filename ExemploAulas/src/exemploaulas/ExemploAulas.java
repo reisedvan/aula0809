@@ -5,7 +5,7 @@ public class ExemploAulas {
 
     
     private static void mostrarCPF(Pessoa pessoa){
-        System.out.println(pessoa.getCpf());
+        System.out.println("Cpf="+pessoa.getCpf());
     }
     
     public static void main(String[] args) {
