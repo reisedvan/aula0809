@@ -28,8 +28,10 @@ public class Pessoa {
     }
 
     public String getCpf() {
-        cpf= cpf.substring(5,6);
-        return cpf;
+        String retorno = cpf.substring(0,4);
+        retorno+="***.***";
+        retorno+=cpf.substring(11,14);
+        return retorno;
     }
 
     public void setCpf(String cpf) {
