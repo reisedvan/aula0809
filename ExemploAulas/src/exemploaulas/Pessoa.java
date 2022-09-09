@@ -28,7 +28,6 @@ public class Pessoa {
     }
 
     public String getCpf() {
-        cpf= cpf.substring(5,6);
         return cpf;
     }
 
